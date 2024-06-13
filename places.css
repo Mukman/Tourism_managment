@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-style:normal;
+    color:orange;
+    background-color: #eee;
+  }
+main {
+    margin: 2rem auto 4rem;
+    width: 90%;
+    max-width: 70rem;
+  }
+figure {
+    margin:0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5rem 1rem 1rem;
+    
+    font-style: italic;
+    font-size:50px;
+
+    color:white;
+  }
+  
+figure img {
+    display: block;
+    border-radius:10px ;
+  }
+  p {
+    font-size: 1.25rem;
+    max-width: 75ch;
+  }
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    
+  }  
